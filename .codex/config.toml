@@ -1,0 +1,5 @@
+# Current Codex agents inherit MCP servers from their parent session.
+# Keep Playwright-generated .codex/agents/*.toml unchanged.
+[mcp_servers.playwright-test]
+command = "cmd"
+args = ["/c", "npx", "--no-install", "playwright", "run-test-mcp-server"]

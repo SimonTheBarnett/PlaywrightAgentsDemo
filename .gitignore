@@ -1,0 +1,16 @@
+node_modules/
+.npm-cache/
+dist/
+data/
+.env
+.env.*
+!.env.example
+*.log
+playwright-report/
+test-results/
+playwright/.auth/
+blob-report/
+playwright/.cache/
+.playwright-mcp/
+*.tsbuildinfo
+*.trace.zip

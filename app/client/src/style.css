@@ -1,0 +1,14 @@
+:root { font-family: system-ui, sans-serif; color: #202020; background: #fafafa; }
+body { max-width: 52rem; margin: 0 auto; padding: 1.5rem; }
+nav { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+a { color: #164c79; }
+article { border: 1px solid #bbb; padding: 1rem; margin: 1rem 0; background: white; }
+form { max-width: 24rem; }
+label { display: block; margin-top: 0.75rem; }
+input { display: block; box-sizing: border-box; width: 100%; padding: 0.5rem; margin: 0.25rem 0 0.75rem; }
+button { padding: 0.5rem 0.8rem; cursor: pointer; }
+input, button { font: inherit; }
+button:disabled { cursor: wait; }
+[role="alert"] { color: #9e1b1b; }
+[role="status"] { color: #24552a; }
+:focus-visible { outline: 3px solid #164c79; outline-offset: 2px; }
